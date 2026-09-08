@@ -10,7 +10,7 @@ This project presents an open-source MATLAB simulation for planning the deployme
 - Coverage visualization based on terrain characteristics
 
 ## 📁 Project Files
-- `Testex_6G.mlapp` - Main MATLAB application
+- `UMBRELLA.mlapp` - Main MATLAB application
 - `arequipa_ak.tif` - Terrain map for simulation
 
 ## 🔧 Requirements
@@ -24,7 +24,7 @@ This project presents an open-source MATLAB simulation for planning the deployme
 - **Sub-THz (6G):** 100 - 300 GHz, with molecular absorption
 
 ## 📖 How to Use
-1. Open `Testex_6G.mlapp` in MATLAB
+1. Open `UMBRELLA.mlapp` in MATLAB
 2. Select frequency and propagation scenario
 3. Visualize coverage on the map
 4. Consider this program helps visualize the coverage of various antennas across different geographic locations, as required.
@@ -35,12 +35,12 @@ This project presents an open-source MATLAB simulation for planning the deployme
   
  ** GEO GPS PERU: https://www.geogpsperu.com/2018/08/descargar-imagenes-aster-gdem-aster.html
 
--	function [L_p]; verifies that input ranges are correct.
--	function [factor_corr]; calculates the correction based on city size and frequency.
--	function A_perdidas = calculates losses for 5G, 6G, and Okumura-Hata models.
--	function [d_max] = calcular_distancia_maxima; determines the maximum distance based on the city type (urban, suburban, or rural).
--	function G = calcular_ganancia_antena_sectorizada; calculates the antenna gain.
--	function azimut_normalizado; calculates the antenna azimuth.
+-	`function [L_p]`; verifies that input ranges are correct.
+-	`function [factor_corr]`; calculates the correction based on city size and frequency.
+-	`function A_perdidas =` calculates losses for 5G, 6G, and Okumura-Hata models.
+-	`function [d_max] = calcular_distancia_maxima`; determines the maximum distance based on the city type (urban, suburban, or rural).
+-	`function G = calcular_ganancia_antena_sectorizada`; calculates the antenna gain.
+-	`function azimut_normalizado`; calculates the antenna azimuth.
 - Line 207 corresponds to the Sub-THz (6G) propagation model.
 - Lines 250–255 correspond to the NYU (5G) propagation models.
 - Another point to consider is that the frequencies must be entered in MHz.
