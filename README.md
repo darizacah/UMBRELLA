@@ -4,8 +4,8 @@
 This project presents an open-source MATLAB simulation for planning the deployment of base stations for 5G and future 6G networks in urban environments. The tool enables coverage visualization based on terrain characteristics and features an interactive interface that allows users to adjust parameters such as operating frequency and propagation scenario.
 
 ## 🚀 Features
-- 5G simulation with NYU model (0.5 - 150 GHz)
-- 6G simulation in sub-THz bands (100 - 300 GHz)
+- 5G simulation with NYU model (0.5 - 6 GHz)
+- 6G simulation in sub-THz bands (6 - 70 GHz)
 - Interactive interface for parameter adjustment
 - Coverage visualization based on terrain characteristics
 
