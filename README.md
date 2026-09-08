@@ -41,9 +41,9 @@ This project presents an open-source MATLAB simulation for planning the deployme
 -	function [d_max] = calcular_distancia_maxima; determines the maximum distance based on the city type (urban, suburban, or rural).
 -	function G = calcular_ganancia_antena_sectorizada; calculates the antenna gain.
 -	function azimut_normalizado; calculates the antenna azimuth.
--       Line 207 corresponds to the Sub-THz (6G) propagation model.
--       Lines 250–255 correspond to the NYU (5G) propagation models.
--       Another point to consider is that the frequencies must be entered in MHz.
+- Line 207 corresponds to the Sub-THz (6G) propagation model.
+- Lines 250–255 correspond to the NYU (5G) propagation models.
+- Another point to consider is that the frequencies must be entered in MHz.
 
 ## 📜 License
 This project is licensed under the MIT License. See the `LICENSE` file for details.
